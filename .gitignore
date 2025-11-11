@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Отчеты и логи
+*.log
+*.out
+*.tmp
+
+# Кэш и артефакты Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Пакеты и сборки
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Конфигурация IDE и редакторов
+.idea/
+.vscode/
+*.code-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы данных треков (уберите, если нужно хранить в репозитории)
+*.plt
+*.gpx
+*.orig.gpx
+
+# Прочие резервные файлы
+*.bak
+*.swp
+*.swo
+
+>>>>>>> a88e358 (Initial commit)
